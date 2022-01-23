@@ -1,0 +1,49 @@
+body {
+    background-image: url(../img/IMAGEN.png);
+}
+table {
+    width: 70%;
+}
+.p1 {
+    background-color:khaki;
+}
+.p2 {
+    background-color:gold;
+}
+.p3 {
+    background-color:goldenrod;
+}
+.p4 {
+    background-color:orange;
+}
+.p5 {
+    background-color: darkorange;
+}
+.p6 {
+    background-color:coral;
+}
+.p7 {
+    background-color:orangered;
+}
+.p8 {
+    background-color: red;
+}
+.p9 {
+    background-color:brown;
+}
+.p10 {
+    background-color: maroon;
+}
+p:hover {
+    color: white;
+    background-color: black;
+}
+.primera {
+    text-decoration: underline;
+}
+.segona {
+    text-decoration: line-through;
+}
+.tercera {
+    font-weight: bold;
+}

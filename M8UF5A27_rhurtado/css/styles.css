@@ -1,0 +1,8 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: darkblue;
+    border: 10px solid darkblue;
+    color: white;
+    width: 100%;
+  }

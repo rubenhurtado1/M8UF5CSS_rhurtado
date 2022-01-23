@@ -1,0 +1,190 @@
+/*Aquesta part pertany a la pàgina principal*/
+h1{
+    text-align: center;
+    margin-bottom: 12px;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+}
+nav{
+    height: 40px;
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#menu{
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav li{
+    width: 150px;
+    height: 38px;
+    margin: -3px;
+    border: solid 1px black;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+img#llac{
+    width: 100%;
+}
+h2{
+    text-align: center;
+    color: cadetblue;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+div.pequeñas{
+    display: inline-block;
+    margin: 7px;
+}
+div.pequeñas img{
+    width: 350px;
+    margin-bottom: -9px;
+}
+div.pequeñas img:hover{
+    opacity: 0.3;
+}
+div.pequeñas>p{
+    text-align: center;
+    font-style: italic;
+}
+#paragraf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div#paragraf>p{
+    width: 450px;
+    text-align: center;
+}
+div#paragraf button{
+    background-color: rgb(73, 73, 73);
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+div#paragraf a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+button:hover{
+    opacity: 0.3;
+}
+hr{
+    width: 80%;
+    margin-top: 25px;
+}
+footer li{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+footer ul{
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    nav{
+        height: 120px;
+        flex-direction: column;
+        background-color: rgb(73, 73, 73);
+        flex-wrap: wrap;
+    }
+    #contenedor{
+        flex-direction: column;
+    }
+    nav li{
+    display:block;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    border: none;
+    display: inline-flex;
+    }
+}
+/*Aquesta part pertany al formulari*/
+#formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+label{
+    display: block;
+    margin-top: 8px;
+    color: white;
+}
+input{
+    margin-top: 2px;
+    display: block;
+}
+#correu{
+    margin-bottom: 12px;
+}
+form{
+	width:275px;
+	padding:10px;
+	border-radius:10px;
+	background-color:cadetblue;
+    margin-bottom: 15px;
+}
+#centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#boto{
+    width: 67px;
+}
+/*Aquesta part pertany al CV*/
+#linia1{
+    width: 99%;
+}
+.negro{
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#mifoto{
+    width: 100px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.izq{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    vertical-align: middle;
+    color: black;
+}
+.curr{
+    margin-top: -6px;
+}
+.blanc{
+    color: rgb(73, 73, 73);
+}

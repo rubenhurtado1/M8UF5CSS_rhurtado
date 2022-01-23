@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.contenedor{
+    width: 400px;
+    height: 280px;
+
+}
+.esquerra{
+    width: 200px;
+    height: 280px;
+    display: inline-block;
+}
+.dreta{
+    width: 200px;
+    height: 280px;
+    float: right;
+}
+.rojo{
+    background-color: red;
+}
+.doscientos{
+    width: 200px;
+    height: 70px;
+}
+.cien{
+    width: 100px;
+    height: 70px;
+}
+#diferente{
+    background-color: yellow;
+    width: 100px;
+    height: 140px;
+}
+.inline{
+    display: inline-block;
+}
+.inline2{
+    display: inline-block;
+}
+.gris{
+    background-color: grey;
+}
+.alinear1{
+    float: right;
+}
+.alinear2{
+    float: right;
+}
+.lila{
+    background-color: purple;
+}
+.rosa{
+    background-color: pink;
+}
+.marron{
+    background-color: brown;
+}
+.azul{
+    background-color: blue;
+}
+.azul_fuerte{
+    background-color: blueviolet;
+}
+.amarillo{
+    background-color: yellow;
+}
+.blanco{
+    background-color: white;
+}
+.marron_fuerte{
+    background-color: darkred;
+}

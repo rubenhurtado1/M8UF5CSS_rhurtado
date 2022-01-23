@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+.blanco{
+    background-color: white;
+}
+.columnas{
+    display: inline-block;
+    margin-right: 2px;
+}
+.primero{
+    width: 71px;
+    height: 72px;
+}
+.segundo{
+    margin-top: 7px;
+    width: 71px;
+    height: 290px;
+}
+.tercero{
+    margin-top: 7px;
+    width: 71px;
+    height: 39px;
+}
+.amarillo{
+    background-color: goldenrod;
+}
+.cuarto{
+    width: 150px;
+    height: 460px;
+}
+.azul{
+    background-color: blue;
+}
+.quinto{
+    width: 150px;
+    height: 154px;
+    margin-top: 3px;
+}
+.sexto{
+    width: 150px;
+    height: 300px;
+    margin-top: 7px;
+}
+.rojo{
+    background-color: red;
+}
+.septimo{
+    width: 150px;
+    height: 293px;
+}
+.decimo{
+    width: 71px;
+    height: 115px;
+    margin-top: 3px;
+}
+.once{
+    width: 71px;
+    height: 115px;
+}
+#excepcion{
+    width: 71px;
+    height: 85px;
+}
+.doce{
+    width: 71px;
+    height: 162px;
+    margin-top: 7px;
+}
+img{
+    width: 700px;
+    margin-top: 20px;
+}
